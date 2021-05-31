@@ -11,5 +11,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 " Plug 'hrsh7th/nvim-compe'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'svermeulen/vim-easyclip'
 call plug#end()
 
