@@ -6,3 +6,4 @@ source $HOME/workspace/nvim/pluginstall.vim
 source $HOME/workspace/nvim/plugins/gruvbox.vim
 source $HOME/workspace/nvim/plugins/undootree.vim
 source $HOME/workspace/nvim/plugins/nerdtree.vim
+source $HOME/workspace/nvim/plugins/ale.vim
