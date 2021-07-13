@@ -21,4 +21,6 @@ Plug 'hrsh7th/nvim-compe'
 " Beautifull plugin that allows for very quick surrounding
 Plug 'tpope/vim-surround'
 
+Plug 'preservim/nerdcommenter'
+
 call plug#end()

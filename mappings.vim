@@ -22,6 +22,9 @@ vnoremap > >gv
 inoremap jk <Esc>
 inoremap kj <Esc>
 
+" Commenting
+nmap <C-c> <plug>NERDCommenterToggle
+xmap <C-c> <plug>NERDCommenterToggle
 
 inoremap <silent><expr> <C-Space> compe#complete()
 
