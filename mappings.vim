@@ -32,4 +32,4 @@ inoremap <silent><expr> <C-Space> compe#complete()
 command! Config execute ":e $HOME/workspace/nvim/init.vim"
 
 " Easy motion
-map s <Plug>(easymotion-s)
+map s <Plug>(easymotion-s2)
