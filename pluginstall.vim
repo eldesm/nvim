@@ -23,4 +23,6 @@ Plug 'tpope/vim-surround'
 
 Plug 'preservim/nerdcommenter'
 
+Plug 'easymotion/vim-easymotion'
+
 call plug#end()

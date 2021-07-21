@@ -30,3 +30,6 @@ inoremap <silent><expr> <C-Space> compe#complete()
 
 " With this you can enter ":Config" in normal mode and enter the vimrc
 command! Config execute ":e $HOME/workspace/nvim/init.vim"
+
+" Easy motion
+map s <Plug>(easymotion-s)
