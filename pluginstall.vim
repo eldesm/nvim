@@ -7,6 +7,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'w0rp/ale'
 
 Plug 'svermeulen/vim-easyclip'
+
 Plug 'tpope/vim-fugitive'
 
 " Required for Telescope

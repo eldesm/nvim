@@ -9,6 +9,7 @@ source $HOME/workspace/nvim/plugins/undootree.vim
 source $HOME/workspace/nvim/plugins/nerdtree.vim
 source $HOME/workspace/nvim/plugins/nerdcommenter.vim
 source $HOME/workspace/nvim/plugins/ale.vim
+source $HOME/workspace/nvim/plugins/fugitive.vim
 luafile $HOME/workspace/nvim/plugins/compe.lua
 luafile $HOME/workspace/nvim/plugins/hop.lua
 "luafile $HOME/workspace/nvim/plugins/python-lsp.lua
