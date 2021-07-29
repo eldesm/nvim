@@ -1,4 +1,4 @@
-wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage -O nvim.appimage
 chmod u+x nvim.appimage && ./nvim.appimage
 rm /usr/bin/nvim
 ln -s $PWD/nvim.appimage /usr/bin/nvim
