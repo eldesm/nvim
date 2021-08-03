@@ -1,5 +1,7 @@
 call plug#begin()
 
+Plug 'takac/vim-hardtime'
+
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'mbbill/undotree'
