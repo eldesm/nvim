@@ -22,8 +22,8 @@ Plug 'hrsh7th/nvim-compe'
 " Beautifull plugin that allows for very quick surrounding
 Plug 'tpope/vim-surround'
 
+Plug 'terrortylor/nvim-comment'
 
-" Plug 'easymotion/vim-easymotion'
 Plug 'phaazon/hop.nvim'
 
 call plug#end()

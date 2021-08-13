@@ -23,8 +23,8 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 
 " Commenting
-nmap <C-c> <plug>NERDCommenterToggle
-xmap <C-c> <plug>NERDCommenterToggle
+nmap <C-c> :CommentToggle<CR>
+xmap <C-c> :CommentToggle<CR>
 
 inoremap <silent><expr> <C-Space> compe#complete()
 
