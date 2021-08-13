@@ -10,7 +10,6 @@ source $HOME/workspace/nvim/plugins/nerdtree.vim
 source $HOME/workspace/nvim/plugins/nerdcommenter.vim
 source $HOME/workspace/nvim/plugins/ale.vim
 source $HOME/workspace/nvim/plugins/fugitive.vim
-source $HOME/workspace/nvim/plugins/hardtime.vim
 
 
 
