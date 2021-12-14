@@ -26,4 +26,6 @@ Plug 'terrortylor/nvim-comment'
 
 Plug 'phaazon/hop.nvim'
 
+Plug 'fedepujol/move.nvim'
+
 call plug#end()

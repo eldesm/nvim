@@ -6,7 +6,6 @@ nnoremap <A-u> :UndotreeToggle<CR>
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 
 let mapleader = " "
-" map <Leader> <Plug>(easymotion-prefix)
 
 " Shortcutting split navigation"
 map <C-h> <C-w>h
@@ -31,7 +30,11 @@ inoremap <silent><expr> <C-Space> compe#complete()
 " With this you can enter ":Config" in normal mode and enter the vimrc
 command! Config execute ":e $HOME/workspace/nvim/init.vim"
 
-" Easy motion
-" map s <Plug>(easymotion-s2)
+"
+" Easymotion writting in lua, with single or multi character hop
  map s :HopChar2<CR>
  map s<Space> :HopChar1<CR>
+
+ " Shift + J/K moves selected lines down/up in visual mode
+vnoremap <silent> <S-j> :MoveBlock(1)<CR>
+vnoremap <silent> <S-k> :MoveBlock(-1)<CR>
