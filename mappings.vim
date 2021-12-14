@@ -34,3 +34,4 @@ command! Config execute ":e $HOME/workspace/nvim/init.vim"
 " Easy motion
 " map s <Plug>(easymotion-s2)
  map s :HopChar2<CR>
+ map s<Space> :HopChar1<CR>
