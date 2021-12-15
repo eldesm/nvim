@@ -38,3 +38,8 @@ command! Config execute ":e $HOME/workspace/nvim/init.vim"
  " Shift + J/K moves selected lines down/up in visual mode
 vnoremap <silent> <S-j> :MoveBlock(1)<CR>
 vnoremap <silent> <S-k> :MoveBlock(-1)<CR>
+
+
+" Keeping it centered while searching
+nnoremap n nzzzv
+nnoremap N Nzzzv
