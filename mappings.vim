@@ -35,11 +35,14 @@ command! Config execute ":e $HOME/workspace/nvim/init.vim"
  map s :HopChar2<CR>
  map s<Space> :HopChar1<CR>
 
- " Shift + J/K moves selected lines down/up in visual mode
-vnoremap <silent> <S-j> :MoveBlock(1)<CR>
+ " Shift + j/k moves selected bloc down/up in visual mode
 vnoremap <silent> <S-k> :MoveBlock(-1)<CR>
+vnoremap <silent> <S-j> :MoveBlock(1)<CR>
 
+ " Shift + j/k moves selected line down/up in normal mode
+nnoremap <silent> <S-k> :MoveLine(-1)<CR>
+nnoremap <silent> <S-j> :MoveLine(1)<CR>
 
 " Keeping it centered while searching
-nnoremap n nzzzv
 nnoremap N Nzzzv
+nnoremap n nzzzv
