@@ -23,7 +23,10 @@ Plug 'nvim-telescope/telescope.nvim'
 
 " Stuff required for LSP
 Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/nvim-compe'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'L3MON4D3/LuaSnip'
 
 " Beautifull plugin that allows for very quick surrounding
 Plug 'tpope/vim-surround'
