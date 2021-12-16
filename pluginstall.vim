@@ -36,6 +36,7 @@ Plug 'phaazon/hop.nvim'
 " For moving lines up and down with shift + j/k
 Plug 'fedepujol/move.nvim'
 
-
+" Switching between files with the fewest amount of keystrokes
+Plug 'ThePrimeagen/harpoon'
 
 call plug#end()
